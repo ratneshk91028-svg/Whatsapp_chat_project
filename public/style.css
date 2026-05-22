@@ -1,0 +1,34 @@
+body {
+    margin-left : 20px;
+}
+.chat {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+.massage {
+    background-color: dodgerblue;
+    color:white;
+    padding: 5px 15px;
+    border-radius: 16px;
+}
+
+button {
+    border-radius: 16px;
+    background-color: dodgerblue;
+    color:white;
+    border-color: white;
+}
+.massage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.massage p {
+    width: 100%; 
+    margin-bottom: 10px; 
+}
